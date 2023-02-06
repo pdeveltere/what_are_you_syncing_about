@@ -1,0 +1,25 @@
+{
+  "name": "what_are_you_syncing_about",
+  "version": "1.0.0",
+  "description": "...",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdeveltere/what_are_you_syncing_about.git"
+  },
+  "author": "Pieter Develtere",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "electron": "^22.2.0",
+    "eslint": "^8.33.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint -c .eslintrc --ext .ts ./src",
+    "start": "electron ./dist/main.js"
+  }
+}
